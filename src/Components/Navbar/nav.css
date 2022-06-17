@@ -37,14 +37,17 @@ nav a{
     align-items: center;
     justify-content:center;
     gap: 1rem;
-    font-size: 1.4rem;
+    font-size: 3rem;
     
     
    }  
   
   @media only screen and (max-width:1024px) {
    header .logo{
-    visibility: inherit;
+    visibility: visible;
+    /* position: absolute; */
+     top: 1rem;
+    left: 2rem;
    }
      
     header .nav-btn{
@@ -52,6 +55,9 @@ nav a{
       opacity: 1;
   
     }
+    /* header {
+      visibility: hidden;
+    } */
     header nav{
      position: fixed;
      top: 0;
@@ -67,6 +73,7 @@ nav a{
      transition: 1s;
       transform:translateY(-100deg) ;
     }
+    
     header .responsive_nav{
       transform: none;
   
