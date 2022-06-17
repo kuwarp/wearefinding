@@ -1,0 +1,9 @@
+.hero img{
+    display: flex;
+    /* position: relative; */
+    
+     padding-left: 2px;
+     margin-left: 10rem;
+     width: 170vh;
+     height: 70rem;
+}

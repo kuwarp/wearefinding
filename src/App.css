@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+:root{
+  --mColor: rgb(246, 247, 167);
+  --lightColor:rgb(239, 242, 81);
+  --textColor: rgb(83, 78, 78);
+  --secondaryColor:rgb(186, 248, 99);
+}
