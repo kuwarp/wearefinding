@@ -1,7 +1,8 @@
 .hero img{
     display: flex;
     /* position: relative; */
-    
+     border: none;
+     
      padding-left: 2px;
      margin-left: 10rem;
      width: 170vh;
